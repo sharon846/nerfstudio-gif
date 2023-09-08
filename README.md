@@ -69,7 +69,7 @@ Original gif:
 https://github.com/sharon846/nerfstudio-gif/assets/62396923/410e0d08-eb4b-492a-bece-30cd67bde5ea <br/><br/>
 
 new gif + camera tracking: <br/>
-![points](https://github.com/sharon846/nerfstudio-gif/blob/master/demo.gif)
+![points](https://github.com/sharon846/nerfstudio-gif/blob/master/dmo.gif)
 
 ## Algorithm and Data
 Our paper including the theory and algoritmic ideas behind this project is available [here](https://github.com/sharon846/nerfstudio-gif/blob/master/paper.pdf) <br/>
