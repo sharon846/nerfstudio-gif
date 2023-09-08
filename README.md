@@ -3,7 +3,7 @@
 We present an extension of nerfstudio amazing work, in gif completion.
 Record the video which you want to make gif, train nerf on it and render the new circular video.
 
-## Installation:
+## Installation
 0. run ```apt update```.
 1. Install colmap, like detailed [here](https://colmap.github.io/install.html#linux). <br/>
    After cloning the colmap git, add to CMakeLists.txt, under "Dependency configuration" the macro ```set(CMAKE_CUDA_ARCHITECTURES "native")```, to auto configure your GPU.
@@ -37,13 +37,13 @@ You may replace the fps with the fps of your camera.
 After colmap successfully proccessed <b>all</b> the frames, run our script using ```python organize_json.py```. <br/>
 Make sure to set colmap_dir to the colmap directory created for your data. 
 
-## Training nerf:
+## Training nerf
 Run ```ns-train [model] --vis viewer --pipeline.datamanager.train-num-rays-per-batch 4096 --data colmap```. <br/>
 Notes:
 1. For our data, we used nerfacto-huge, but the full models list available [here](https://docs.nerf.studio/en/latest/nerfology/methods/).
 2. When having more than 1 GPU, you may use them by specifing --machine.num-devices [gpus_num]. If you have only one, you can drop this part.
 
-## Gif rendering:
+## Gif rendering
 Run ```ns-render-gif.sh [your_model_name]```. This will do all the job for you :) <br/>
 Make sure to edit ```data_dir=[Parent_of_your_model_directory]/$1```.
 
