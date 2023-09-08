@@ -65,7 +65,7 @@ At the end of the process, the following structure will be in your model folder
 ```
 
 ## Example - Room
-Original gif:
+(https://drive.google.com/file/d/1oyYOyAqeX4gMJdbxmeMeZadOHLYcCwfE/view?usp=drive_link)[original gif]
 https://github.com/sharon846/nerfstudio-gif/assets/62396923/410e0d08-eb4b-492a-bece-30cd67bde5ea <br/><br/>
 
 new gif + camera tracking: <br/>
