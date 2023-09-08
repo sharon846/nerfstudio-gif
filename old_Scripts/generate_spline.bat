@@ -1,0 +1,1 @@
+python generate_spline.py --colmap_dir Data/Chair/Colmap --dataparser_dir Data/Chair/Colmap
